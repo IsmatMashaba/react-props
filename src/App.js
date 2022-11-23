@@ -1,5 +1,8 @@
 import React from "react";
 
+import './components/Home/Home.css'
+import Home from "./components/Home/Home";
+
 function App() {
   const produtList = [
     {
@@ -109,7 +112,29 @@ function App() {
       },
     },
   ];
-  return <div>This is App component</div>;
+  return (
+      <div>
+        <h1>Products List</h1>
+        <div className='product-list'>
+          {produtList.map((item) => {
+            return (
+                /*can you please explain me if I write the code this way why it does not work*/
+
+                /*<Home userProp={item}*/
+                <Home
+                    title={item.title}
+                    price={item.price}
+                    image={item.image}
+                    key={item.id}
+                />
+            );
+          })}
+        </div>
+      </div>
+  )
 }
+
+
+
 
 export default App;

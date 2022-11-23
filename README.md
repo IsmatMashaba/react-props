@@ -7,7 +7,7 @@
 
 ## Requirement
 
-In `App.js` we have a product array, using map method and passing props, please display the product data in the `ProductItem.js` components
+In `App.js` we have a product array, using map method and passing props, please display the product data in the `Home.js` components
 
 ## Screenshot
 
