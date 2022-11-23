@@ -5,8 +5,8 @@ export default function Home ({ title, price, image }){
     return (
         <div>
             <div className='product'>
-                <p className='title'>Name: {title}</p>
-                <p className='price'>Price: ${price}</p>
+                <div className='title'>Name: {title}</div>
+                <div className='price'>Price: ${price}</div>
                 <img src={image} alt={title} />
             </div>
 

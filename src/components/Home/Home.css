@@ -1,11 +1,20 @@
 img {
-    height: 50px;
-    width: 50px;
+    height: 80px;
+    width: 80px;
+    margin-top: 32px;
 }
-
-.product {
-    border: 1px solid black;
+.product-list {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 10px;
+    gap: 2px;
+
+}
+.product {
+   border: 1px solid black;
+    height: 200px;
+    width: 350px;
+    margin-left:120px;
+    padding-left: 50px;
+margin-bottom: 100px;
+
 }
