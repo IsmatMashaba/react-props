@@ -17,7 +17,8 @@ export default function Home ({ title, price, image }){
 
 /*I tried this method but it didn't work can you please explain why*/
 
-/*export default function Home ( userProp ){
+/*
+export default function Home ( {userProp} ){
 
     return (
         <div className='product'>
